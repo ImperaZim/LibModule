@@ -1,0 +1,19 @@
+name: EasyModuleFarmConsumerExample
+main: easylibraryexamples\farm\FarmConsumerExamplePlugin
+version: 1.0.0
+api: 5.0.0
+src-namespace-prefix: easylibraryexamples\farm
+depend:
+  - EasyLibrary
+softdepend:
+  - EasyModuleEconomyProviderExample
+  - EasyModuleBasicExample
+
+author: ImperaZim
+
+easylibrary-modules:
+  - path: modules
+    namespace: easylibraryexamples\farm\modules
+permissions:
+  easylibrary.examples.farm:
+    default: op

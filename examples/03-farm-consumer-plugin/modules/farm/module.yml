@@ -1,0 +1,23 @@
+id: examples:farm
+name: Farm Consumer Example
+version: 1.0.0
+loader: FarmModule
+namespace: easylibraryexamples\farm\modules\farm
+load: POSTWORLD
+enabled: true
+
+provides:
+  services: []
+  capabilities:
+    - examples.farm
+
+requires:
+  services:
+    - examples:economy-service
+  capabilities:
+    - economy
+
+soft-dependencies:
+  - examples:hello
+plugin-dependencies:
+  - EasyModuleEconomyProviderExample

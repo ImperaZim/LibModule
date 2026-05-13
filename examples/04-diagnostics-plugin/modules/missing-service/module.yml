@@ -1,0 +1,9 @@
+id: examples:diagnostic-missing-service
+name: Diagnostic Missing Service Dependency
+version: 1.0.0
+loader: NeedsMissingServiceModule
+namespace: easylibraryexamples\diagnostics\modules\missingservice
+enabled: true
+requires:
+  services:
+    - examples:not-installed-service

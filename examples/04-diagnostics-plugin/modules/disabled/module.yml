@@ -1,0 +1,6 @@
+id: examples:diagnostic-disabled
+name: Diagnostic Disabled In Manifest
+version: 1.0.0
+loader: DisabledModule
+namespace: easylibraryexamples\diagnostics\modules\disabled
+enabled: false

@@ -1,0 +1,8 @@
+id: examples:diagnostic-missing-module
+name: Diagnostic Missing Module Dependency
+version: 1.0.0
+loader: NeedsMissingModule
+namespace: easylibraryexamples\diagnostics\modules\missingdependency
+enabled: true
+dependencies:
+  examples:not-installed: ">=1.0.0"

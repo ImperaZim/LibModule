@@ -1,0 +1,16 @@
+name: EasyModuleDiagnosticsExample
+main: easylibraryexamples\diagnostics\DiagnosticsExamplePlugin
+version: 1.0.0
+api: 5.0.0
+src-namespace-prefix: easylibraryexamples\diagnostics
+depend:
+  - EasyLibrary
+
+author: ImperaZim
+
+easylibrary-modules:
+  - path: modules
+    namespace: easylibraryexamples\diagnostics\modules
+permissions:
+  easylibrary.examples.diagnostics:
+    default: op

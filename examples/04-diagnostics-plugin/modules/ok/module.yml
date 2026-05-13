@@ -1,0 +1,9 @@
+id: examples:diagnostic-ok
+name: Diagnostic OK Module
+version: 1.0.0
+loader: DiagnosticOkModule
+namespace: easylibraryexamples\diagnostics\modules\ok
+enabled: true
+provides:
+  capabilities:
+    - examples.diagnostic

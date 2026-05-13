@@ -1,0 +1,22 @@
+id: examples:economy
+name: Economy Provider Example
+version: 1.0.0
+loader: EconomyModule
+namespace: easylibraryexamples\economy\modules\economy
+load: POSTWORLD
+enabled: true
+
+provides:
+  services:
+    - examples:economy-service
+  capabilities:
+    - economy
+    - examples.economy
+
+requires:
+  services: []
+  capabilities: []
+
+dependencies: []
+soft-dependencies: []
+plugin-dependencies: []

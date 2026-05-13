@@ -1,0 +1,16 @@
+name: EasyModuleEconomyProviderExample
+main: easylibraryexamples\economy\EconomyProviderExamplePlugin
+version: 1.0.0
+api: 5.0.0
+src-namespace-prefix: easylibraryexamples\economy
+depend:
+  - EasyLibrary
+
+author: ImperaZim
+
+easylibrary-modules:
+  - path: modules
+    namespace: easylibraryexamples\economy\modules
+permissions:
+  easylibrary.examples.economy:
+    default: op

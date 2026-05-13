@@ -1,0 +1,17 @@
+name: EasyModuleBasicExample
+main: easylibraryexamples\basic\BasicExamplePlugin
+version: 1.0.0
+api: 5.0.0
+src-namespace-prefix: easylibraryexamples\basic
+depend:
+  - EasyLibrary
+
+author: ImperaZim
+website: https://example.local
+
+easylibrary-modules:
+  - path: modules
+    namespace: easylibraryexamples\basic\modules
+permissions:
+  easylibrary.examples.hello:
+    default: op

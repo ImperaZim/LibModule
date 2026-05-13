@@ -1,0 +1,21 @@
+id: examples:hello
+name: Hello Module Example
+version: 1.0.0
+loader: HelloModule
+namespace: easylibraryexamples\basic\modules\hello
+load: POSTWORLD
+enabled: true
+
+provides:
+  services:
+    - examples:hello-service
+  capabilities:
+    - examples.hello
+
+requires:
+  services: []
+  capabilities: []
+
+dependencies: []
+soft-dependencies: []
+plugin-dependencies: []
